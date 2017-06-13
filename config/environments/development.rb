@@ -65,6 +65,6 @@ config.action_mailer.smtp_settings = {
 :enable_starttls_auto => true
 
 }
-config.action_mailer.default_url_options = { host: "localhost:3000" }
+config.action_mailer.default_url_options = { host: "mailbday.heroku.com" }
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 end
